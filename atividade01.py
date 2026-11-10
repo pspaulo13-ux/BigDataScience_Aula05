@@ -17,7 +17,7 @@ elif calculo_nota >= 5:
         print(f'Em recuperação!')
 
 else:
-      print(f'Reprovado')
+      print(f'Reprovado!')
 
     
 
