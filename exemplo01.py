@@ -4,12 +4,12 @@ frete = 8
 if valor_pedido > 50 and distancia <= 3:
     valor_final = valor_pedido
     print('Frete Gratis!')
+    print (f'O valor do seu pedido é de R$ {valor_final}')
+          
 
 else:
     valor_final = valor_pedido + 8
 
     print(f'Frete de R$ {frete} adicionado ao pedido')
     print(f"Valor final: R$ {valor_final:.2f}")
-    
-
 
